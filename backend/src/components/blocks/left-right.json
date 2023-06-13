@@ -1,0 +1,51 @@
+{
+  "collectionName": "components_blocks_left_rights",
+  "info": {
+    "displayName": "leftRight",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "richtext"
+    },
+    "body": {
+      "type": "text"
+    },
+    "phoneIcon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "phoneNumber": {
+      "type": "richtext"
+    },
+    "phonePhrase": {
+      "type": "string"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": true,
+      "component": "button-component.button-component"
+    },
+    "featureIMG": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "imageFirst": {
+      "type": "boolean"
+    }
+  }
+}

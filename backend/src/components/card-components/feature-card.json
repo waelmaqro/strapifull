@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_card_components_feature_cards",
+  "info": {
+    "displayName": "featureCard"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "richtext"
+    },
+    "body": {
+      "type": "text"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": true,
+      "component": "button-component.button-component"
+    }
+  }
+}

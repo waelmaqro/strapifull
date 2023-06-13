@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_button_component_button_components",
+  "info": {
+    "displayName": "buttonComponent",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "theme": {
+      "type": "enumeration",
+      "enum": [
+        "bg-[#292F36]"
+      ]
+    },
+    "arrowIcon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "buttonLabel": {
+      "type": "string",
+      "required": true
+    },
+    "href": {
+      "type": "text"
+    },
+    "target": {
+      "type": "enumeration",
+      "enum": [
+        "_blank"
+      ]
+    }
+  }
+}

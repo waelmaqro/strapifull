@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_button_component_call_us_components",
+  "info": {
+    "displayName": "callUsComponent"
+  },
+  "options": {},
+  "attributes": {
+    "phoneNumber": {
+      "type": "integer"
+    },
+    "phrase": {
+      "type": "string",
+      "required": true
+    },
+    "phoneIcon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

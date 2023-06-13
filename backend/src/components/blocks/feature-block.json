@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_blocks_feature_blocks",
+  "info": {
+    "displayName": "featureBlock"
+  },
+  "options": {},
+  "attributes": {
+    "featureCard": {
+      "displayName": "featureCard",
+      "type": "component",
+      "repeatable": true,
+      "component": "card-components.feature-card"
+    }
+  }
+}
