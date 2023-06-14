@@ -2,7 +2,7 @@
 const nextConfig = {
     images: {
         domains: [
-          'images.unsplash.com', "th.bing.com"
+          'images.unsplash.com', "th.bing.com", 'http://127.0.0.1:1337/'
         ]
       }
 }

@@ -1,3 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Jost&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.heading {
+    font-family: "DM Serif Display", serif,
+}
+
+.body {
+  font-family: "Jost", sans-serif;  
+}
